@@ -12,6 +12,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+DJANGO_SETTINGS_MODULE = "api_yamdb.settings"
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -94,7 +95,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 STATIC_URL = '/static/'
