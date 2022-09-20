@@ -28,7 +28,7 @@ jobs:
 
     - name: Test with pytest tests
       run: |
-        cd .. .
+        cd ../.
         pytest
 
   build_and_push_to_docker_hub:
