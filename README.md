@@ -723,7 +723,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 ```
 Проверьте работоспособность приложения, для этого перейдите на страницу:
 ```
- http://localhost/admin/
+ 84.252.143.128
 ```
 
 ### В проекте использованы технологии:
